@@ -1,0 +1,23 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "notes",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meedfine/notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meedfine/notes/issues"
+  },
+  "homepage": "https://github.com/meedfine/notes#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  }
+}

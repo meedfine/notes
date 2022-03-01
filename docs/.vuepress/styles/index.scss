@@ -1,0 +1,12 @@
+.home {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  .hero img {
+    height: 280px; // 免得img加载抖动
+  }
+}
+.custom {
+  flex: 1;
+}
