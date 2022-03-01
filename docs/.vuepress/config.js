@@ -5,6 +5,8 @@ module.exports = {
   themeConfig: {
     darkMode: false,
     navbar: false,
+    lastUpdated: false,
+    contributors: false,
     sidebar: {
       "/": [
         {
@@ -24,8 +26,8 @@ module.exports = {
               link: "/notes/nginx",
             },
             {
-              text: "Verdaccio 安装",
-              link: "/notes/verdaccio",
+              text: "Https 配置",
+              link: "/notes/https",
             },
           ],
         },
