@@ -48,8 +48,11 @@ server {
     ssl_certificate_key cert/7333609_www.meedfine.com.key;
     location / {
         charset utf-8;
-        proxy_set_header Host meedfine.github.io;
-        proxy_pass https://meedfine.github.io/notes/; #转发到github
+        proxy_pass https://notes-meedfine.vercel.app/;
+    }
+    location /music-api/ {
+        charset utf-8;
+        proxy_pass https://netease-cloud-music-api-meedfine.vercel.app/;
     }
 }
 
